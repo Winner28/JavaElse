@@ -7,7 +7,7 @@ import java.util.List;
 public class CodeWArs {
 
     public static void main(String[] args) {
-        print(Abbreviator.abbreviate("internationalization"));
+        print(Divisibility_by13.thirt(85299258));
     }
 
 
@@ -18,7 +18,7 @@ public class CodeWArs {
         }
     }
 
-    public static void print(String string) {
+    public static void print(Object string) {
         System.out.println(string);
     }
 }
