@@ -1,6 +1,10 @@
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * @author vlaDey
+ */
+
 // https://www.codewars.com/kata/5547cc7dcad755e480000004/train/java
 public class RemovedNumbers {
 

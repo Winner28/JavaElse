@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CodeWArs {
+public interface CodeWArs {
 
     public static void main(String[] args) {
-        print(Divisibility_by13.thirt(85299258));
+
+        print(Divisibility_by13.thirt(987654321));
     }
 
 

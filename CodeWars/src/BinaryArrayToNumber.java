@@ -1,5 +1,9 @@
 import java.util.List;
 
+/**
+ * @author vlaDey
+ */
+
 public class BinaryArrayToNumber {
 
     public static int ConvertBinaryArrayToInt(List<Integer> binary) {

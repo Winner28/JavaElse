@@ -1,3 +1,7 @@
+
+/**
+ * @author vlaDey
+ */
 public class EqualsKata {
 
     public static double findUniq(double arr[]) {

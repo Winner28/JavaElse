@@ -1,3 +1,6 @@
+/**
+ * @author vlaDey
+ */
 public class DescendingOrder {
 
     public static int sortDesc(final int num) {

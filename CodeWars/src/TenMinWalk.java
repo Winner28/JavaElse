@@ -1,4 +1,9 @@
 
+
+/**
+ * @author vlaDey
+ */
+
 public class TenMinWalk {
 
 

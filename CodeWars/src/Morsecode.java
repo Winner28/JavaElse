@@ -1,5 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
+/**
+ * @author vlaDey
+ */
 
 public class Morsecode {
 

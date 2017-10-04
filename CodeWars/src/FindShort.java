@@ -1,3 +1,7 @@
+
+/**
+ * @author vlaDey
+ */
 public class FindShort {
     public static int findShort(String s) {
         String []resultString = s.split(" ");

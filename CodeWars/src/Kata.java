@@ -1,3 +1,7 @@
+
+/**
+ * @author vlaDey
+ */
 public class Kata {
     public static int sum(int[] numbers) {
         if (numbers == null || numbers.length == 0) return 0;

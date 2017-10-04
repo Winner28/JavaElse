@@ -1,3 +1,7 @@
+
+/**
+ * @author vlaDey
+ */
 public class SortKata {
     public static int[] sortArray(int[] array) {
         sortArr(array,0,array.length-1);

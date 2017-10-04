@@ -1,3 +1,6 @@
+/**
+ * @author vlaDey
+ */
 public class Abbreviator {
 
     public static String abbreviate(String string) {
