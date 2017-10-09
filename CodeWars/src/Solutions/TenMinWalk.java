@@ -1,4 +1,4 @@
-
+package Solutions;
 
 /**
  * @author vlaDey

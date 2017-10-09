@@ -1,19 +1,20 @@
+package Solutions;
 
 /**
  * @author vlaDey
  */
-public class Kata {
-    public static int sum(int[] numbers) {
-        if (numbers == null || numbers.length == 0) return 0;
-        sortArr(numbers,0,numbers.length-1);
-        int result = 0;
-        for (int i = 1; i<numbers.length-1; i++) {
-            result+=numbers[i];
-        }
-        return result;
+public class EqualsKata {
+
+    public static double findUniq(double arr[]) {
+
+        sortArr(arr, 0, arr.length-1);
+        if (arr[0]!=arr[1]) return arr[0];
+        return arr[arr.length-1];
+
     }
 
-    private static void sortArr(int []a, int left, int right) {
+
+    private static void sortArr(double []a, int left, int right) {
 
         int i = left;
         int r =right;
@@ -24,7 +25,7 @@ public class Kata {
             while (a[pivot] < a[r]) r--;
 
             if (i<=r) {
-                int temp = a[i];
+                double temp = a[i];
                 a[i] = a[r];
                 a[r] = temp;
                 i++;
@@ -36,4 +37,5 @@ public class Kata {
         if (left<r) sortArr(a,left,r);
         if (i<right) sortArr(a,i,right);
     }
+
 }

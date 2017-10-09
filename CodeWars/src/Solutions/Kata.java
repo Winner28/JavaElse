@@ -1,12 +1,17 @@
+package Solutions;
 
 /**
  * @author vlaDey
  */
-public class SortKata {
-    public static int[] sortArray(int[] array) {
-        sortArr(array,0,array.length-1);
-        for (int num: array) System.out.println(num);
-        return array;
+public class Kata {
+    public static int sum(int[] numbers) {
+        if (numbers == null || numbers.length == 0) return 0;
+        sortArr(numbers,0,numbers.length-1);
+        int result = 0;
+        for (int i = 1; i<numbers.length-1; i++) {
+            result+=numbers[i];
+        }
+        return result;
     }
 
     private static void sortArr(int []a, int left, int right) {
@@ -16,8 +21,8 @@ public class SortKata {
         int pivot = (i+r)/2;
 
         do {
-            while (a[i] < a[pivot] && a[i]%2==0) i++;
-            while (a[pivot] < a[r] && a[r]%2==0) r--;
+            while (a[i] < a[pivot]) i++;
+            while (a[pivot] < a[r]) r--;
 
             if (i<=r) {
                 int temp = a[i];
@@ -32,5 +37,4 @@ public class SortKata {
         if (left<r) sortArr(a,left,r);
         if (i<right) sortArr(a,i,right);
     }
-
 }

@@ -1,3 +1,5 @@
+package Solutions;
+
 /**
  * @author vlaDey
  */

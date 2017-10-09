@@ -1,3 +1,5 @@
+package Solutions;
+
 import java.util.List;
 //https://www.codewars.com/kata/best-travel/train/java
 public class BestTravel {
